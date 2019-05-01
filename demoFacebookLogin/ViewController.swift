@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnLogin(_ sender: Any) {
-      //Please add the FacebookAppID and FacebookDisplayName in info.plist
+      //Please add the FacebookAppID and FacebookDisplayName in info.plist//
       let login = FaceBookLogin.shared
       login.loginButtonAction { (result) in
         switch result{
